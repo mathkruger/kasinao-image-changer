@@ -1,6 +1,6 @@
 # Kasinão Image Changer
 
-<img src="https://images.uncyc.org/pt/thumb/1/11/Kasinao.png/250px-Kasinao.png" alt="drawing" />
+<img src="images/kasinao.gif" alt="drawing" />
 
 Extensão que troca todas as fotos de um site pela foto do KASINÃO NO SABADAÇO - CAN'T GET OVER.
 
