@@ -1,11 +1,8 @@
-# BlurImage
-Chrome extension to hide images from Quora (To avoid explicit content)
+# Kasinão Image Changer
+Extensão que troca todas as fotos de um site pela foto do KASINÃO NO SABADAÇO - CAN'T GET OVER
+Para instalar, baixe como zip.
 
-To use this extension locally 
-
-Download this Repository ZIP.
-
-Go to this link:
+Instruções para instalação:
 https://www.cnet.com/how-to/how-to-install-chrome-extensions-manually
 
-Follow the instruction from step 4
+Instruções a partir do passo 4
