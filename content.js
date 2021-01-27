@@ -25,6 +25,7 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
         chrome.storage.sync.get('tipoKasino', function (data) {
             if (data.tipoKasino) {
                 imagensKasino = data.tipoKasino;
+                colocaKasino();
             }
         });
 
@@ -42,7 +43,7 @@ window.onload = function () {
                 if (data.tipoKasino) {
                     imagensKasino = data.tipoKasino;
                 }
-                
+
                 addListeners();
             });
         }
