@@ -10,12 +10,52 @@
         display: block;
         margin: auto;
       }
+      .imagem-selecionada {
+        max-width: 100%;
+        max-height: 200px;
+      }
+      .lista-de-kasino {
+        list-style: none;
+      }
+      .lista-de-kasino li {
+        margin-bottom: 1rem;
+        transition: .2s;
+        cursor: pointer;
+        border: 1px solid white;
+        border-radius: 15px;
+        padding: .5rem;
+      }
+      .lista-de-kasino li:hover {
+        border: 1px solid black;
+      }
+      .thumb {
+        max-width: 70px;
+      }
     </style>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
   </head>
   <body>
-    <img src="https://images.uncyc.org/pt/thumb/1/11/Kasinao.png/250px-Kasinao.png">
+    <img class="imagem-selecionada" src="https://images.uncyc.org/pt/thumb/1/11/Kasinao.png/250px-Kasinao.png">
     <h2>Kassinão está ativo, se quiser desativar, desabilita a extensão tio!</h2>
+    <p>Escolha uma foto do kasinão que você curte: </p>
+    <ul class="lista-de-kasino">
+      <li>
+        <img src="https://images.uncyc.org/pt/thumb/1/11/Kasinao.png/250px-Kasinao.png" class="thumb" />
+        Kasino no SABADAÇO - CAN'T GET OVER
+      </li>
+      <li>
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fs2.glbimg.com%2FzZ_EFhpVm3pGjH0VgMaGNIgw3Ik%3D%2Fsmart%2Fe.glbimg.com%2Fog%2Fed%2Ff%2Foriginal%2F2019%2F01%2F17%2F00qrz2i53hmqivpdu2uuop6t9.jpg&f=1&nofb=1https://s2.glbimg.com/zZ_EFhpVm3pGjH0VgMaGNIgw3Ik=/smart/e.glbimg.com/og/ed/f/original/2019/01/17/00qrz2i53hmqivpdu2uuop6t9.jpg" class="thumb" />
+        Kasino emo
+      </li>
+      <li>
+        <img src="http://djsono.com.br/web/wp-content/uploads/2014/05/Kasino-02.jpg" class="thumb" />
+        Kasino de mão aberta abençoando
+      </li>
+      <li>
+        <img src="https://i.ytimg.com/vi/PjYpTlVZd2A/maxresdefault.jpg" class="thumb" />
+        Kasino BuGaDo
+      </li>
+    </ul>
     <script src="mudaKasino.js"></script>
   </body>
 </html>
