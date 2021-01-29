@@ -27,6 +27,8 @@ chrome.storage.sync.get('tipoKasino', function (data) {
 
 document.querySelectorAll('.lista-de-kasino li').forEach(item => {
     item.addEventListener('click', (e) => {
-        escolheKasino(item.querySelector('.thumb').src);
+      document.querySelectorAll('.lista-de-kasino li').forEach(ex => ex.classList.remove('active'));
+      item.classList.add('active');
+      escolheKasino(item.querySelector('.thumb').src);
     });
 })

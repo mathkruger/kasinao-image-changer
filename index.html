@@ -4,6 +4,8 @@
     <style>
       body{
         width: 350px;
+        background-color: #000;
+        color: #fff;
         text-align: center;
       }
       img {
@@ -16,6 +18,7 @@
       }
       .lista-de-kasino {
         list-style: none;
+        padding: 0 .5rem;
       }
       .lista-de-kasino li {
         margin-bottom: 1rem;
@@ -25,8 +28,11 @@
         border-radius: 15px;
         padding: .5rem;
       }
-      .lista-de-kasino li:hover {
+      .lista-de-kasino li:hover,
+      .lista-de-kasino li.active {
         border: 1px solid black;
+        background: white;
+        color: black;
       }
       .thumb {
         max-width: 70px;
